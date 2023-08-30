@@ -18,6 +18,13 @@ h3 {
     display: flex;
 }
 
+p {
+    font-family: 'ADLaM Display', cursive;
+    letter-spacing: 2px;
+}
+
+
+
 hr {
     border-top: 1px solid #646464;
     margin: 0 10px;
@@ -29,10 +36,9 @@ header {
     text-align: center;
     position: fixed;
     z-index: 99;
-    width: 96%;
+    width: 98%;
     box-shadow: 0 3px 3px #3a3a3a;
     border-radius: 50px 10px;
-    padding-bottom: 10px;
 }
 
 header a {
@@ -54,12 +60,40 @@ main {
     padding-top: 150px;
 }
 
+/* Main section*/
+main>div {}
+
+/* Hero section of the main*/
+#hero {
+    height: 400px;
+    width: 100%;
+    background: url("../images/robstar-racing.jpg") no-repeat center center/cover;
+    position: relative;
+    box-shadow: 0 10px 10px #3a3a3a;
+    border-radius: 50px 10px;
+}
+
+.main-text {
+    margin-top: 410px;
+    background-color: #ffffff;
+    text-align: center;
+    position: fixed;
+    width: 98%;
+    box-shadow: 0 10px 10px #3a3a3a;
+    border-radius: 50px 10px;
+}
+
+.main-text>h3 {
+    display: flex;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     position: absolute;
     bottom: 0px;
     background-color: #ffffff;
-    width: 96%;
+    width: 98%;
     box-shadow: 0 3px 3px #3a3a3a;
     border-radius: 50px 10px;
 }
@@ -80,26 +114,30 @@ footer {
 
 /* Media query: for realy narrow screens (350px and smaller) */
 @media screen and (max-width: 350px) {
+
     /* Header */
     h1 {
         width: 200px;
     }
-        header {   
-               border-radius: 25px 5px;
-            }
-    
-        header a {
-            text-decoration: none;
-            color: inherit;
-        }
-        nav>h3 {
-            padding-left: 10px;
-            flex-direction: column;
-            justify-content: space-around;
-            text-align: left;
-        }
+
+    header {
+        border-radius: 25px 5px;
+    }
+
+    header a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    nav>h3 {
+        padding-left: 10px;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: left;
+    }
+
     /* Main */
-        main {
-                padding-top: 230px;
-        }
+    main {
+        padding-top: 230px;
+    }
 }
