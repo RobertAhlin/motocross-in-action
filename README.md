@@ -41,7 +41,18 @@ In the about page I wanted the visitor to be able to read some about me and what
 I can write a lot about but I think the content is enough for now.
 
 Finally after some time I started to feel satisfied with a good site:<br>
-![Final design of index page](readmefiles/index-view.jpg)![Final design of image page](readmefiles/image-view.jpg)![Final design of about page](readmefiles/about-view.jpg)
+![Final design of index page](readmefiles/index-view.jpg)![Final design of image page](readmefiles/image-view.jpg)![Final design of about page](readmefiles/about-view.jpg)<br>
+This is the view from a Samsung Galaxy S8+, but I've been working a lot with different sceeen sizes and in responsive mode to confirm that it will work on 
+all devices.
+
+## More features?
+---
+Of course I want to add more things.
+<ul>
+<li> One image gallery for motocross and one for enduro.</li>
+<li> Was thinking of adding a video on the index page.</li>
+</ul>
+
 
 
 ## Testing
