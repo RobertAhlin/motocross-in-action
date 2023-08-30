@@ -1,4 +1,4 @@
-## Motocross & Enduro
+## Robstar Racing - Motocross & Enduro
 
 This is README for my first Portfolio Project.
 
@@ -18,7 +18,7 @@ Existing Features
 Navigation Bar
 
 Featured on all pages, the full responsive navigation bar should be centered with equal space between to follow the different sceen widths. Three links to Home, an image libaray and to an about page. This should look the same on all pages.
-The navigation liks should always be visible to minimize the amount of clicking but also big enough to be able to use with a finger on a cell phone.
+The navigation links should always be visible to minimize the amount of clicking but also big enough to be able to use with a finger on a cell phone.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser's ‘back’ button.
 
 The first basic structure looks like this:<br>
@@ -40,6 +40,8 @@ the wider the screen gets.
 In the about page I wanted the visitor to be able to read some about me and what's the different between motocross and enduro. 
 I can write a lot about but I think the content is enough for now.
 
+## Finalising
+---
 Finally after some time I started to feel satisfied with a good site:<br>
 ![Final design of index page](readmefiles/index-view.jpg)![Final design of image page](readmefiles/image-view.jpg)![Final design of about page](readmefiles/about-view.jpg)<br>
 This is the view from a Samsung Galaxy S8+, but I've been working a lot with different sceeen sizes and in responsive mode to confirm that it will work on 
@@ -77,7 +79,7 @@ Links to the validation
 </ul>
 
 ### Bugs?
-Yes, When using different screen sizes and espicially the responsive view in the browser. The "header", "main" and "footer" section doesn't line to the right margin of the view. I have tried with various widths, margins and paddins without success. I tried to search the internet without any help. The last thing I noticed was that it seems to be affected by the "z-index" value. the higher value the more close it is to the right edge. Couln't solve it or even if might not be able to solve?
+Yes, Wen using different screen sizes and espicially the responsive view in the browser. The "header", "main" and "footer" section doesn't line to the right margin of the view. It looks good on a mobile, but the wider screen is, the worse it looks. I have tried with various widths, margins and paddings without success. I tried to search the internet without any help. The last thing I noticed was that it seems to be affected by the "z-index" value. The higher value the more close it is to the right edge. Couln't solve it or even if might not be able to solve? Is that the purpose of "z-index"?
 
 ## Deployment
 ---
@@ -91,36 +93,13 @@ Yes, When using different screen sizes and espicially the responsive view in the
 </ul>
 The live link can be found here - <a href="https://robertahlin.github.io/motocross-in-action/" target="_blank">https://robertahlin.github.io/motocross-in-action/</a>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
 
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
+## Credits
 ---
+As you probably can see, I have got a lot of insiration from the Love Running project. Hence that was a good walktroug project and gave me a ton of knowledge.
 
-Happy coding!
+Other that that:
+All the text are authored by me.
+All the pictures are taken by me or my fiancé.
+The hero logo is done by me.
+
