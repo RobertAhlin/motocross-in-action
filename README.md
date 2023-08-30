@@ -25,12 +25,19 @@ The first basic structure looks like this:<br>
 ![First structure.](readmefiles/structure.jpg)<br>
 This will be the main theme for all pages and will be added with contents.
 
-Finally after 
+Finally after some time I started to feel satisfied with a good site:<br>
+![Final design of index page](readmefiles/index-view.jpg)![Final design of image page](readmefiles/image-view.jpg)![Final design of about page](readmefiles/about-view.jpg)
+
+
 ## Testing
 ---
 I first tested the code when the first structure was made.<br>
 ![First test](readmefiles/first-test.jpg)<br>
 I got some info about "Trailing slash on void elements" but corrected it to get a nice ok.
+
+When I felt that I was starting to be done. I tested all the code again.
+All the info about "Trailing slash on void elements" was back. And I noticed that Codeanywhere add this automatically. So this time I decided just to filter that so it doesn't show everytime.
+But I got some warnings that I should add a header. Which I did with a class to hide it.
 
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**

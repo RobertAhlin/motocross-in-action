@@ -4,7 +4,7 @@
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
-    margin: 5;
+    margin: 2;
     box-sizing: border-box;
 }
 
@@ -32,7 +32,7 @@ p {
 
 hr {
     border-top: 1px solid #646464;
-    margin: 0 10px;
+    width: 90%;
 }
 
 /* Header */
@@ -41,8 +41,8 @@ header {
     text-align: center;
     position: fixed;
     z-index: 99;
-    width: 98%;
-    box-shadow: 0 3px 3px #3a3a3a;
+    width: 96%;
+    box-shadow: 0 10px 10px #3a3a3a;
     border-radius: 50px 10px;
 }
 
@@ -65,13 +65,15 @@ main {
     padding-top: 150px;
 }
 
-/* Main section*/
-main>div {}
+.hidden-text {
+    display: none;
+}
 
 /* Hero section*/
 #hero-main {
     height: 300px;
     width: 99%;
+    z-index: 75;
     background: url("../images/robstar-racing.jpg") no-repeat center center/cover;
     position: relative;
     box-shadow: 0 10px 10px #3a3a3a;
@@ -83,8 +85,8 @@ main>div {}
     margin-top: 310px;
     background-color: #ffffff;
     text-align: center;
-    position: fixed;
-    width: 98%;
+    position: absolute;
+    width: 99%;
     box-shadow: 0 10px 10px #3a3a3a;
     border-radius: 25px 5px;
 }
@@ -117,7 +119,7 @@ main>div {}
 }
 
 /* For about page */
-#about-text {
+.about-text {
     background-color: rgba(255, 245, 191, 0.6);
     padding: 10px;
     box-shadow: 0 10px 10px #3a3a3a;
@@ -141,10 +143,12 @@ main>div {}
 footer {
     position: fixed;
     bottom: 5px;
+    z-index: 98;
     background-color: #ffffff;
-    width: 98%;
-    box-shadow: 0 3px 3px #3a3a3a;
+    width: 96%;
+    box-shadow: 0 10px 10px #3a3a3a;
     border-radius: 50px 10px;
+    
 }
 
 #social-networks {
