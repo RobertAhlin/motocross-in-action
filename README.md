@@ -70,14 +70,14 @@ which I changed to "position; fixed;".
 
 Links to the validation
 <ul>
-<li> HTML of index page.</li>
-<li> HTML of image page.</li>
-<li> HTML of about page.</li>
-<li> CSS of style.css.</li>
+<li> HTML of <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frobertahlin.github.io%2Fmotocross-in-action%2Findex.html" target="_blank">index</a> page.</li>
+<li> HTML of <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frobertahlin.github.io%2Fmotocross-in-action%2Fimages.html" target="_blank">images</a> page.</li>
+<li> HTML of <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frobertahlin.github.io%2Fmotocross-in-action%2Fabout.html" target="_blank">about</a> page.</li>
+<li> CSS of <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobertahlin.github.io%2Fmotocross-in-action%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">style.css</a>.</li>
 </ul>
 
 ### Bugs?
-Yes, When using different sizes and espicially the responsive view in the browser. The "header", "main" and "footer" section doesn't line to the right margin of the veiw. I have tried with various widths, margins and paddins without success. I tried to search the internet without any help. The last thing I noticed was that it seems to be affected by the "z-index" value. the higher value the more close it is to the right edge. Couln't solve it or even if might not be able to solve?
+Yes, When using different screen sizes and espicially the responsive view in the browser. The "header", "main" and "footer" section doesn't line to the right margin of the view. I have tried with various widths, margins and paddins without success. I tried to search the internet without any help. The last thing I noticed was that it seems to be affected by the "z-index" value. the higher value the more close it is to the right edge. Couln't solve it or even if might not be able to solve?
 
 ## Deployment
 ---
