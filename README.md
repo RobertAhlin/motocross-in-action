@@ -25,6 +25,21 @@ The first basic structure looks like this:<br>
 ![First structure.](readmefiles/structure.jpg)<br>
 This will be the main theme for all pages and will be added with contents.
 
+I wanted my logo as a hero image:
+![Robstar Racing logo](assets/images/robstar-racing.jpg)<br>
+I made sure it has the width of 1920 pixels to cover most of the screens.
+
+I really liked the idea of the footer from the Love Runing project. So I used that knowledge from that and made it fit my design.<br>
+![Image of the footer](readmefiles/footer-image.jpg)<br>
+I made the links work to my Facebook page, YouTube and Instagram. I made them open in new windows. But beware, the pages are in Swedish.
+
+Also the gallery idea from the Love running project was a nice feature. Especially the feature that made the image sort up in more columns 
+the wider the screen gets.
+![Example of some images from the image page](readmefiles/images-image.jpg)
+
+In the about page I wanted the visitor to be able to read some about me and what's the different between motocross and enduro. 
+I can write a lot about but I think the content is enough for now.
+
 Finally after some time I started to feel satisfied with a good site:<br>
 ![Final design of index page](readmefiles/index-view.jpg)![Final design of image page](readmefiles/image-view.jpg)![Final design of about page](readmefiles/about-view.jpg)
 
@@ -38,6 +53,7 @@ I got some info about "Trailing slash on void elements" but corrected it to get 
 When I felt that I was starting to be done. I tested all the code again.
 All the info about "Trailing slash on void elements" was back. And I noticed that Codeanywhere add this automatically. So this time I decided just to filter that so it doesn't show everytime.
 But I got some warnings that I should add a header. Which I did with a class to hide it.
+
 
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
