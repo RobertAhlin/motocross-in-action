@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Motocross & Enduro
+## Motocross & Enduro
 
 This is README for my first Portfolio Project.
 
@@ -9,6 +9,19 @@ I will build a website that has some basic information about motorcross and endu
 The site will be developed with the concept of "mobile first" to be able to fit small screens and then be responsive for bigger screens.
 
 The idea is to have one index.html and two sub pages. One with pictures and one with information about me as a rider and information about motocross and enduro riding. 
+
+## Features
+---
+
+Existing Features
+Navigation Bar
+
+Featured on all pages, the full responsive navigation bar should be centered with equal space between to follow the different sceen widths. Thre links to Home, an image libaray and to an about page. This should look the same on all pages.
+The navigation liks should always be visible to minimize the amount of clicking but also big enough to be able to use with a finger on a cell phone.
+This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser's ‘back’ button.
+
+
+
 
 
 
