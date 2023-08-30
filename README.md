@@ -25,6 +25,7 @@ The first basic structure looks like this:<br>
 ![First structure.](readmefiles/structure.jpg)<br>
 This will be the main theme for all pages and will be added with contents.
 
+Finally after 
 ## Testing
 ---
 I first tested the code when the first structure was made.<br>

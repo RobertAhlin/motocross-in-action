@@ -86,22 +86,12 @@ main>div {}
     position: fixed;
     width: 98%;
     box-shadow: 0 10px 10px #3a3a3a;
-    border-radius: 50px 10px;
+    border-radius: 25px 5px;
 }
 
 .main-text>h3 {
     display: flex;
     text-align: center;
-}
-
-/* For styling the hero image on sub pages */
-#hero-bg {
-    height: 300px;
-    width: 100%;
-    background: url("../images/robstar-racing.jpg") no-repeat center center/cover;
-    position: fixed;
-    border-radius: 50px 10px;
-    opacity: 0.2;
 }
 
 #images {
@@ -117,12 +107,34 @@ main>div {}
 #photos img {
     width: 100%;
     line-height: 1em;
+    border-radius: 25px 5px;
 }
 
 #photos {
     line-height: 0;
     z-index: 75;
     padding-bottom: 76px;
+}
+
+/* For about page */
+#about-text {
+    background-color: rgba(255, 245, 191, 0.6);
+    padding: 10px;
+    box-shadow: 0 10px 10px #3a3a3a;
+    border-radius: 25px 5px;
+}
+
+#section-style {
+    padding-bottom: 76px;
+}
+
+#hero-bg {
+    height: 300px;
+    width: 100%;
+    background: url("../images/robstar-racing.jpg") no-repeat center center/cover;
+    position: fixed;
+    border-radius: 50px 10px;
+    opacity: 0.1;
 }
 
 /* Footer */
@@ -180,17 +192,18 @@ footer {
 
     /* Footer */
     footer {
-            position: bottom;
-            bottom: 0px;
-        }
-        #social-networks {
-            padding: 0 0;
-        }
-    
-        #social-networks i {
-            font-size: 100%;
-            padding: 0;
-        }
+        position: bottom;
+        bottom: 0px;
+    }
+
+    #social-networks {
+        padding: 0 0;
+    }
+
+    #social-networks i {
+        font-size: 100%;
+        padding: 0;
+    }
 }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -200,10 +213,11 @@ footer {
         column-gap: 0;
     }
 }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     #photos {
         column-count: 3;
-            column-gap: 0;
-        }
+        column-gap: 0;
+    }
 }
