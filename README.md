@@ -63,9 +63,33 @@ I got some info about "Trailing slash on void elements" but corrected it to get 
 
 When I felt that I was starting to be done. I tested all the code again.
 All the info about "Trailing slash on void elements" was back. And I noticed that Codeanywhere add this automatically. So this time I decided just to filter that so it doesn't show everytime.
-But I got some warnings that I should add a header. Which I did with a class to hide it.
+But I got some warnings that I should add headers. Which I did with a class to hide it.
 
+The CSS Validator gave me two errors. One that I had forgot to write a unit on a margin. And the second one was that I had typed "position; bottom;" 
+which I changed to "position; fixed;".
 
+Links to the validation
+<ul>
+<li> HTML of index page.</li>
+<li> HTML of image page.</li>
+<li> HTML of about page.</li>
+<li> CSS of style.css.</li>
+</ul>
+
+### Bugs?
+Yes, When using different sizes and espicially the responsive view in the browser. The "header", "main" and "footer" section doesn't line to the right margin of the veiw. I have tried with various widths, margins and paddins without success. I tried to search the internet without any help. The last thing I noticed was that it seems to be affected by the "z-index" value. the higher value the more close it is to the right edge. Couln't solve it or even if might not be able to solve?
+
+## Deployment
+---
+<ul>
+<li>The site was deployed to GitHub pages. The steps to deploy are as follows:</li>
+<ul>
+<li>In the GitHub repository, navigate to the Settings tab</li>
+<li>From the source section drop-down menu, select the Master Branch</li>
+<li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
+</ul>
+</ul>
+The live link can be found here - <a href="https://robertahlin.github.io/motocross-in-action/" target="_blank">https://robertahlin.github.io/motocross-in-action/</a>
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
 
