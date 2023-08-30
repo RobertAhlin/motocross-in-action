@@ -8,7 +8,10 @@ I will build a website that has some basic information about motorcross and endu
 
 The site will be developed with the concept of "mobile first" to be able to fit small screens and then be responsive for bigger screens.
 
-The idea is to have one index.html and two sub pages. One with pictures and one with information about me as a rider and information about motocross and enduro riding. 
+The idea is to have one index.html and two sub pages. One with pictures and one with information about me as a rider and information about motocross and enduro riding.
+
+The basic idea is to have it simple with some small 3d effects.<br>
+<img src="readmefiles/idea.jpg" width="200" alt="First idea drawn on paper.">
 
 ## Features
 ---
@@ -20,9 +23,15 @@ Featured on all pages, the full responsive navigation bar should be centered wit
 The navigation liks should always be visible to minimize the amount of clicking but also big enough to be able to use with a finger on a cell phone.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser's ‘back’ button.
 
+The first basic structure looks like this:<br>
+![First structure.](readmefiles/structure.jpg)<br>
+This will be the main theme for all pages and will be added with contents.
 
-
-
+## Testing
+---
+I first tested the code when the first structure was made.<br>
+![First test](readmefiles/first-test.jpg)<br>
+I got some info about "Trailing slash on void elements" but corrected it to get a nice ok.
 
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**

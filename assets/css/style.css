@@ -29,7 +29,7 @@ header {
     text-align: center;
     position: fixed;
     z-index: 99;
-    width: 98%;
+    width: 96%;
     box-shadow: 0 3px 3px #3a3a3a;
     border-radius: 50px 10px;
     padding-bottom: 10px;
@@ -59,7 +59,7 @@ footer {
     position: absolute;
     bottom: 0px;
     background-color: #ffffff;
-    width: 98%;
+    width: 96%;
     box-shadow: 0 3px 3px #3a3a3a;
     border-radius: 50px 10px;
 }
@@ -73,7 +73,7 @@ footer {
 }
 
 #social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     padding: 5%;
     color: #3a3a3a;
 }
