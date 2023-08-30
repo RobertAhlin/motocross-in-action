@@ -1,6 +1,13 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 5;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(255, 245, 191);
     color: black;
@@ -89,11 +96,11 @@ main>div {}
 /* For styling the hero image on sub pages */
 #hero-bg {
     height: 400px;
-        width: 100%;
-        background: url("../images/robstar-racing.jpg") no-repeat center center/cover;
-        position: fixed;
-        border-radius: 50px 10px;
-        opacity: 0.2;
+    width: 100%;
+    background: url("../images/robstar-racing.jpg") no-repeat center center/cover;
+    position: fixed;
+    border-radius: 50px 10px;
+    opacity: 0.2;
 }
 
 #images {
@@ -104,13 +111,18 @@ main>div {}
     border-radius: 50px 10px;
     position: absolute;
 }
- /* For the images */
- #photos img {
-     width: 500px;
-     line-height: 1em;
- }
 
- 
+/* For the images */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+    z-index: 75;
+}
+
 /* Footer */
 footer {
     position: fixed;
@@ -163,4 +175,19 @@ footer {
     main {
         padding-top: 230px;
     }
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    #photos {
+        column-count: 3;
+            column-gap: 0;
+        }
 }
