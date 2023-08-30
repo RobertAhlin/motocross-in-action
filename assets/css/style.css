@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
 
 body {
-    background-color: rgb(170, 207, 255);
+    background-color: rgb(255, 245, 191);
     color: black;
 }
 
@@ -22,8 +22,6 @@ p {
     font-family: 'ADLaM Display', cursive;
     letter-spacing: 2px;
 }
-
-
 
 hr {
     border-top: 1px solid #646464;
@@ -63,8 +61,8 @@ main {
 /* Main section*/
 main>div {}
 
-/* Hero section of the main*/
-#hero {
+/* Hero section*/
+#hero-main {
     height: 400px;
     width: 100%;
     background: url("../images/robstar-racing.jpg") no-repeat center center/cover;
@@ -88,9 +86,34 @@ main>div {}
     text-align: center;
 }
 
+/* For styling the hero image on sub pages */
+#hero-bg {
+    height: 400px;
+        width: 100%;
+        background: url("../images/robstar-racing.jpg") no-repeat center center/cover;
+        position: fixed;
+        border-radius: 50px 10px;
+        opacity: 0.2;
+}
+
+#images {
+    text-align: center;
+    z-index: 50;
+    width: 98%;
+    box-shadow: 0 10px 10px #3a3a3a;
+    border-radius: 50px 10px;
+    position: absolute;
+}
+ /* For the images */
+ #photos img {
+     width: 500px;
+     line-height: 1em;
+ }
+
+ 
 /* Footer */
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     background-color: #ffffff;
     width: 98%;
