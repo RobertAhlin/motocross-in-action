@@ -98,7 +98,7 @@ main {
 
 /* For the images */
 #photos img {
-    width: 100%;
+    width: 720px;
     line-height: 1em;
     border-radius: 25px 5px;
 }

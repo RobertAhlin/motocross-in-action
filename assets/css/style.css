@@ -40,6 +40,7 @@ hr {
 
 /* Header */
 .navbar-style {
+    z-index: 99;
     background-color: #ffffff;
     box-shadow: 0 10px 10px #3a3a3a;
     border-radius: 50px 10px;
@@ -134,6 +135,25 @@ hr {
     width: 150px;
 }
 
+.format-text {
+    padding: 0 50px 0 50px;
+}
+
+.info-text-style {
+    background-color: #ffffff;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    box-shadow: 0 10px 10px #3a3a3a;
+    border-radius: 50px 10px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding: 5px 0 5px 0;
+}
+
 /* Footer */
 footer {
     background-color: #ffffff;
@@ -201,19 +221,38 @@ footer {
         border-radius: 25px 5px
     }
 
+   .info-text-style {
+        width: 100%;
+        height: auto;
+        box-shadow: 0 5px 5px #3a3a3a;
+        border-radius: 25px 5px
+   }
+
     /* Footer */
     footer {
         position: fixed;
-        bottom: 0px;
+        bottom: 10px;
     }
 
     #social-networks {
-        padding: 0 0;
+        padding: 0 10px;
     }
 
     #social-networks i {
-        font-size: 100%;
+        font-size: 200%;
         padding: 0;
+    }
+
+    /* For the images */
+    #photos img {
+        width: 100%;
+        line-height: 1em;
+        border-radius: 25px 5px;
+    }
+
+    #photos {
+        line-height: 0;
+        padding-bottom: 76px;
     }
 
     /* Media query: for really narrow screens (444px and smaller) */
@@ -231,6 +270,7 @@ footer {
             height: 156px;
             border-radius: 25px 5px;
         }
+
         .text-block-left {
             position: relative;
             top: 0;
@@ -251,6 +291,17 @@ footer {
             box-shadow: 0 5px 5px #3a3a3a;
             border-radius: 25px 5px;
             width: 200px;
+        }
+        .info-text-style {
+            margin-top: 20px;
+            width: 100%;
+            height: auto;
+            box-shadow: 0 5px 5px #3a3a3a;
+            border-radius: 25px 5px;
+            display: inline-block;
+        }
+        .format-text {
+            padding: 0 10px 0 10px;
         }
     }
 
