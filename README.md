@@ -27,14 +27,16 @@ This will be the main theme for all pages and will be added with contents.
 
 I wanted my logo as a hero image:
 ![Robstar Racing logo](assets/images/robstar-racing.jpg)<br>
+Something eye catching on the page to make the visitor interested. The logo is hopefylly cool enough for this purpose.
 I made sure it has the width of 1920 pixels to cover most of the screens.
 
 I really liked the idea of the footer from the Love Runing project. So I used that knowledge from that and made it fit my design.<br>
 ![Image of the footer](readmefiles/footer-image.jpg)<br>
+This will ensure that the visitor can find other media quick and easy if they wish to get more information or wants to follow me in any social media.
 I made the links work to my Facebook page, YouTube and Instagram. I made them open in new windows. But beware, the pages are in Swedish.
 
 Also the gallery idea from the Love running project was a nice feature. Especially the feature that made the image sort up in more columns 
-the wider the screen gets.
+the wider the screen gets. This gives a great view over the images and works good on any screen with.
 ![Example of some images from the image page](readmefiles/images-image.jpg)
 
 In the about page I wanted the visitor to be able to read some about me and what's the different between motocross and enduro. 
@@ -51,8 +53,8 @@ all devices.
 ---
 Of course I want to add more things.
 <ul>
-<li> One image gallery for motocross and one for enduro.</li>
-<li> Was thinking of adding a video on the index page.</li>
+<li> One image gallery so it will be one for motocross and one for enduro.</li>
+<li> Thinking of adding a video on the index page.</li>
 </ul>
 
 
@@ -96,10 +98,9 @@ The live link can be found here - <a href="https://robertahlin.github.io/motocro
 
 ## Credits
 ---
-As you probably can see, I have got a lot of insiration from the Love Running project. Hence that was a good walktroug project and gave me a ton of knowledge.
+As you probably can see, I have got a lot of insiration from the Love Running project. Hence that was a good walkthroug project and gave me a ton of knowledge.
 
 Other that that:
 All the text are authored by me.
 All the pictures are taken by me or my fiancé.
 The hero logo is done by me.
-
