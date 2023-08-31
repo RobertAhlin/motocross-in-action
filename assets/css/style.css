@@ -9,7 +9,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-} 
+}
 
 hr {
     border-top: 1px solid #646464;
@@ -32,6 +32,12 @@ hr {
     font-size: 150%;
 }
 
+.text-style {
+    font-family: 'ADLaM Display', cursive;
+    letter-spacing: 1px;
+    font-size: 100%;
+}
+
 /* Header */
 .navbar-style {
     background-color: #ffffff;
@@ -39,10 +45,10 @@ hr {
     border-radius: 50px 10px;
     width: 100%;
     position: fixed;
-        padding: 0;
-        margin: 0;
-        top: 0;
-        left: 0;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
 }
 
 .menu-style {
@@ -103,23 +109,30 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+
 .text-block {
-    position: realtive;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(247, 247, 247);
     padding-left: 20px;
     padding-right: 20px;
+    box-shadow: 0 10px 10px #3a3a3a;
+    border-radius: 50px 10px;
+    width: 150px;
 }
 
 /* Footer */
 footer {
-    position: fixed;
-    bottom: 5px;
-    z-index: 98;
     background-color: #ffffff;
-    width: 96%;
     box-shadow: 0 10px 10px #3a3a3a;
     border-radius: 50px 10px;
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    bottom: 10px;
+    left: 0;
 
 }
 
@@ -144,7 +157,7 @@ footer {
     .font-style {
         letter-spacing: 1px;
         font-size: 80%;
-        }
+    }
 
     /* Title */
     .navbar-style {
@@ -156,7 +169,7 @@ footer {
     .hero-image {
         margin-top: 110px;
     }
-    
+
     .hero-image img {
         width: 100%;
         box-shadow: 0 5px 5px #3a3a3a;
@@ -176,7 +189,7 @@ footer {
         border-radius: 25px 5px
     }
 
-     /* Footer */
+    /* Footer */
     footer {
         position: fixed;
         bottom: 0px;
