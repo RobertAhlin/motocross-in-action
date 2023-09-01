@@ -1,37 +1,20 @@
-## <a id="robstar-racing"></a>Robstar Racing - Motocross & Enduro
+# <a id="robstar-racing"></a>Robstar Racing - Motocross & Enduro
 
-<img src="readmefiles/website-mockup-dev.png" width="50%" alt="Website shown in different devices.">
+
+## <a id="first-project"></a>First project at Code Institute
+---
 
 This is README for my first Portfolio Project.
 
-Project one is to show what I have learn during the first HTML and CSS course. I will build a website that has some basic information about motorcross and enduro. What's the different. And me riding. The website will also contain a gallery with images related to the website's content.
+Project 1 is to show what I have learnt during the first HTML and CSS course. The website has some basic information about motorcross and enduro. What's different between the two sports. Some info about me. The website will also contain a gallery with images related to the website's content.
 
-# Table of Contents
+# Table of Content
 
-- [Robstar Racing - Motocross & Enduro](#robstar-racing)
-  - [Code Institute - First Milestone Project: User Centric Frontend Development.](#code-institute---first-milestone-project-user-centric-frontend-development)
-- [Table of Contents](#table-of-contents)
-  - [Demo](#demo)
-    - [A live demo to the website can be found here](#a-live-demo-to-the-website-can-be-found-here)
-  - [UX](#ux)
-  - [User stories](#user-stories)
-    - [Strategy](#strategy)
-    - [Scope](#scope)
-    - [Structure](#structure)
-    - [Skeleton](#skeleton)
-    - [Surface](#surface)
-  - [Technologies](#technologies)
-  - [Features](#features)
-    - [Existing Features](#existing-features)
-    - [Features Left to Implement](#features-left-to-implement)
-  - [Testing](#testing)
-    - [Validator Testing](#validator-testing)
-    - [Bugs](#bugs)
-  - [Deployment](#deployment)
-  - [Credits](#credits)
-    - [Content](#content)
-    - [Media](#media)
-    - [Acknowledgements](#acknowledgements)
+# Demo
+<img src="readmefiles/website-mockup-dev.png" width="50%" alt="Website shown in different devices."><br>
+
+The live link can be found here - <a href="https://robertahlin.github.io/motocross-in-action/" target="_blank">https://robertahlin.github.io/motocross-in-action/</a>
+
 The site will be developed with the concept of "mobile first" to be able to fit small screens and then be responsive for bigger screens.
 
 The idea is to have one index.html and two sub pages. One with pictures and one with information about me as a rider and information about motocross and enduro riding.
@@ -121,7 +104,7 @@ Yes, Wen using different screen sizes and espicially the responsive view in the 
 <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
 </ul>
 </ul>
-The live link can be found here - <a href="https://robertahlin.github.io/motocross-in-action/" target="_blank">https://robertahlin.github.io/motocross-in-action/</a>
+
 
 
 ## Credits
