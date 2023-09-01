@@ -1,5 +1,7 @@
 ## Robstar Racing - Motocross & Enduro
 
+<img src="readmefiles/website-mockup-dev.png" width="50%" alt="Website shown in different devices.">
+
 This is README for my first Portfolio Project.
 
 I will build a website that has some basic information about motorcross and enduro. What's the different. And me riding. The website will also contain a gallery with images related to the website's content.
@@ -9,7 +11,7 @@ The site will be developed with the concept of "mobile first" to be able to fit 
 The idea is to have one index.html and two sub pages. One with pictures and one with information about me as a rider and information about motocross and enduro riding.
 
 The basic idea is to have it simple with some small 3d effects.<br>
-<img src="readmefiles/idea.jpg" width="200" alt="First idea drawn on paper.">
+<img src="readmefiles/idea.jpg" width="25%" alt="First idea drawn on paper.">
 
 ## Features
 ---
@@ -25,8 +27,8 @@ The first basic structure looks like this:<br>
 ![First structure.](readmefiles/structure.jpg)<br>
 This will be the main theme for all pages and will be added with contents.
 
-I wanted my logo as a hero image:
-![Robstar Racing logo](assets/images/robstar-racing.jpg)<br>
+I wanted my logo as a hero image:<br>
+![Robstar Racing logo](assets/images/robstar-racing-s.jpg)<br>
 Something eye catching on the page to make the visitor interested. The logo is hopefylly cool enough for this purpose.
 I made sure it has the width of 1920 pixels to cover most of the screens.
 
