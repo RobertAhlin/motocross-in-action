@@ -216,7 +216,27 @@ footer {
 }
 
 .bottom-margin {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
+}
+/* Form */
+#signup {
+    background-position: center;
+    position: relative;
+}
+
+#signup-form {
+    text-align: center;
+    max-width: 100%;
+    top: 150px;
+}
+
+.text-input:hover {
+    border-color: #ddff44;
+}
+
+.subscribe-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
 }
 
 /* Media query: for narrow screens (1080px and smaller) */
@@ -310,11 +330,14 @@ footer {
         width: 80%;
         box-shadow: 0 5px 5px #3a3a3a;
         border-radius: 25px 5px;
-    
    }
 
    .about-format {
        padding: 0 150px 0 100px;
+   }
+
+   .bottom-margin {
+       margin-bottom: 80px;
    }
 
     /* Media query: for really narrow screens (620px and smaller) */
