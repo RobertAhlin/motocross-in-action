@@ -42,6 +42,10 @@ hr {
     display: none;
 }
 
+.format-text {
+    padding: 0 50px 0 50px;
+}
+
 /* Header */
 .navbar-style {
     z-index: 99;
@@ -129,10 +133,6 @@ hr {
     min-width: 150px;
 }
 
-.format-text {
-    padding: 0 50px 0 50px;
-}
-
 .info-text-style {
     background-color: #ffffff;
     position: relative;
@@ -195,13 +195,28 @@ footer {
 
 /* About page */
 .about-text-style {
-    margin-top: 10px;
     background-color: #ffffff;
-    width: 100%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     height: auto;
-    box-shadow: 0 5px 5px #3a3a3a;
-    border-radius: 25px 5px;
-    padding: 5px 20px 3px 20px;
+    box-shadow: 0 10px 10px #3a3a3a;
+    border-radius: 50px 10px;
+    margin-top: 10px;
+    padding: 5px 5% 5px 5%;
+}
+.about-text-style h2 {
+    text-align: center;
+}
+
+.about-format {
+    padding: 0 200px 0 200px;
+}
+
+.bottom-margin {
+    margin-bottom: 80px;
 }
 
 /* Media query: for narrow screens (1080px and smaller) */
@@ -292,14 +307,16 @@ footer {
 
     /* About page*/
     .about-text-style {
-        margin-top: 10px;
-        background-color: #ffffff;
-        width: 100%;
-        height: auto;
+        width: 80%;
         box-shadow: 0 5px 5px #3a3a3a;
         border-radius: 25px 5px;
-        padding: 5px 20px 3px 20px;
+    
    }
+
+   .about-format {
+       padding: 0 150px 0 100px;
+   }
+
     /* Media query: for really narrow screens (620px and smaller) */
     @media screen and (max-width: 620px) {
         .video-style {
@@ -343,7 +360,6 @@ footer {
             height: auto;
             box-shadow: 0 5px 5px #3a3a3a;
             border-radius: 25px 5px;
-            display: inline-block;
         }
         .format-text {
             padding: 0 10px 0 10px;
@@ -353,7 +369,16 @@ footer {
         .photos {
             column-count: 3;
             column-gap: 3px;
-    }
+        }
+        
+        /* About page*/
+        .about-text-style {
+            width: 90%;
+        }
+
+        .about-format {
+            padding: 0 20px 0 10px;
+        }
     }
 
 }
