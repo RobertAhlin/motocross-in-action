@@ -38,6 +38,10 @@ hr {
     font-size: 80%;
 }
 
+.hidden-text {
+    display: none;
+}
+
 /* Header */
 .navbar-style {
     z-index: 99;
@@ -61,18 +65,6 @@ hr {
 }
 
 /* Main content*/
-.flex-container {
-    display: flex;
-}
-
-.flex-child {
-    flex: 1;
-}
-
-.flex-child:first-child {
-    margin-right: 20px;
-}
-
 .hero-image {
     position: relative;
     margin-top: 180px;
@@ -120,7 +112,8 @@ hr {
     padding-right: 20px;
     box-shadow: 0 10px 10px #3a3a3a;
     border-radius: 50px 10px;
-    width: 150px;
+    width: 20%;
+        min-width: 150px;
 }
 
 .text-block-right {
@@ -132,7 +125,8 @@ hr {
     padding-right: 20px;
     box-shadow: 0 10px 10px #3a3a3a;
     border-radius: 50px 10px;
-    width: 150px;
+    width: 20%;
+    min-width: 150px;
 }
 
 .format-text {
@@ -182,9 +176,36 @@ footer {
     color: #3a3a3a;
 }
 
+/* Images page */
+.photos img {
+    width: 100%;
+    line-height: 1em;
+    padding: 1px;
+    border-radius: 25px 5px;
+}
 
-/* Media query: for narrow screens (720px and smaller) */
-@media screen and (max-width: 720px) {
+.photos {
+    line-height: 0;
+    padding-bottom: 76px;
+}
+
+.header-margin {
+    margin-top: 180px;
+}
+
+/* About page */
+.about-text-style {
+    margin-top: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 5px 5px #3a3a3a;
+    border-radius: 25px 5px;
+    padding: 5px 20px 3px 20px;
+}
+
+/* Media query: for narrow screens (1080px and smaller) */
+@media screen and (max-width: 1080px) {
 
     .font-style {
         letter-spacing: 1px;
@@ -220,7 +241,15 @@ footer {
         height: 236px;
         border-radius: 25px 5px
     }
+    .text-block-left {
+        padding: 3px 5px 2px 5px;
+        width: 150px;
+    }
 
+    .text-block-right {
+        padding: 3px 5px 2px 5px;
+        width: 150px;
+    }
    .info-text-style {
         width: 100%;
         height: auto;
@@ -243,20 +272,36 @@ footer {
         padding: 0;
     }
 
-    /* For the images */
-    #photos img {
+    /* Images page */
+    .photos img {
         width: 100%;
         line-height: 1em;
         border-radius: 25px 5px;
     }
 
-    #photos {
+    .photos {
         line-height: 0;
         padding-bottom: 76px;
+        column-count: 2;
+        column-gap: 3px;
     }
 
-    /* Media query: for really narrow screens (444px and smaller) */
-    @media screen and (max-width: 444px) {
+    .header-margin {
+    margin-top: 110px;
+    }
+
+    /* About page*/
+    .about-text-style {
+        margin-top: 10px;
+        background-color: #ffffff;
+        width: 100%;
+        height: auto;
+        box-shadow: 0 5px 5px #3a3a3a;
+        border-radius: 25px 5px;
+        padding: 5px 20px 3px 20px;
+   }
+    /* Media query: for really narrow screens (620px and smaller) */
+    @media screen and (max-width: 620px) {
         .video-style {
             width: 100%;
             height: 156px;
@@ -273,9 +318,9 @@ footer {
 
         .text-block-left {
             position: relative;
-            top: 0;
+            top: 10px;
             left: 2px;
-            padding: 0 20px 2px 20px;
+            padding: 3px 5px 2px 5px;
             box-shadow: 0 5px 5px #3a3a3a;
             border-radius: 25px 5px;
             width: 200px;
@@ -285,15 +330,15 @@ footer {
             position: relative;
             margin-left: auto;
             margin-top: 0;
-            top: 0;
+            top: 15px;
             right: 2px;
-            padding: 0 20px 2px 20px;
+            padding: 3px 5px 2px 5px;
             box-shadow: 0 5px 5px #3a3a3a;
             border-radius: 25px 5px;
             width: 200px;
         }
         .info-text-style {
-            margin-top: 20px;
+            margin-top: 35px;
             width: 100%;
             height: auto;
             box-shadow: 0 5px 5px #3a3a3a;
@@ -303,6 +348,12 @@ footer {
         .format-text {
             padding: 0 10px 0 10px;
         }
+
+        /* Images page */
+        .photos {
+            column-count: 3;
+            column-gap: 3px;
+    }
     }
 
 }
