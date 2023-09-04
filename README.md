@@ -2,8 +2,6 @@
 
 ## <a id="first-project"></a>First project at Code Institute
 
----
-
 This is README for my first Portfolio Project.
 
 Project 1 is to show what I have learnt during the first HTML and CSS course. The website has some basic information about motorcross and enduro. What's different between the two sports. Some info about me. The website will also contain a gallery with images related to the website's content.
