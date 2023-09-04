@@ -13,9 +13,9 @@ Project 1 is to show what I have learnt during the first HTML and CSS course. Th
 - <a href="#demo">Demo</a>
 - <a href="#user-experience">User Experience</a>
 - <a href="#user-stories">User Stories</a>
-- <a href="#strategy">Strategy</a>
-- <a href="#scope">Scope</a>
-- <a href="#structure">Structure</a>
+  - <a href="#strategy">Strategy</a>
+  - <a href="#scope">Scope</a>
+  - <a href="#structure">Structure</a>
   - <a href="#skeleton">Skeleton</a>
   - <a href="#surface">Surface</a>
 - <a href="#technologies">Technologies</a>
@@ -23,10 +23,10 @@ Project 1 is to show what I have learnt during the first HTML and CSS course. Th
 - <a href="#finalising">Finalising</a>
 - <a href="#more-features">More Features</a>
 - <a href="#testing">Testing</a>
-- <a href="#bugs">Bugs</a>
+  - <a href="#bugs">Bugs</a>
 - <a href="#deployment">Deployment</a>
 - <a href="#credits">Credits</a>
-- <a href="#acknowledgements">Acknowledgements</a>
+  - <a href="#acknowledgements">Acknowledgements</a>
 
 # <a id="demo"></a>Demo
 
@@ -125,6 +125,10 @@ I can write a lot about but I think the content is enough for now.
 ## <a id="finalising"></a>Finalising
 
 Finally after some time I started to feel satisfied with a good site:<br>
+<img src="readmefiles/index-view.jpg" alt="Final design of index page" width="33%">
+<img src="readmefiles/image-view.jpg" alt="Final design of image page" width="33%">
+<img src="readmefiles/about-view.jpg" alt="Final design of about page" width="33%">
+
 ![Final design of index page](readmefiles/index-view.jpg)![Final design of image page](readmefiles/image-view.jpg)![Final design of about page](readmefiles/about-view.jpg)<br>
 This is the view from a Samsung Galaxy S8+, but I've been working a lot with different sceeen sizes and in responsive mode to confirm that it will work on
 all devices.
