@@ -70,7 +70,7 @@ hr {
 
 .active {
     text-decoration: underline;
-    color: darkgrey;
+    color: rgb(110, 110, 110);
 }
 
 /* Main content*/
