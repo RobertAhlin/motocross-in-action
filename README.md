@@ -8,12 +8,6 @@ This is README for my first Portfolio Project.
 
 Project 1 is to show what I have learnt during the first HTML and CSS course. The website has some basic information about motorcross and enduro. What's different between the two sports. Some info about me. The website will also contain a gallery with images related to the website's content.
 
-# <a id="table-of-content"></a>Table of Content
-
-- <a href="#robstar-racing">Robstar Racing</a>
-- <a href="#table-of-content">Table of Content</a>
-- <a href="#demo">Demo</a>
-
 # <a id="demo"></a>Demo
 
 <img src="readmefiles/website-mockup-dev.png" width="50%" alt="Website shown in different devices."><br>
