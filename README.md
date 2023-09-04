@@ -159,8 +159,9 @@ Links to the validation
 <li> CSS of <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobertahlin.github.io%2Fmotocross-in-action%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">style.css</a>.</li>
 </ul>
 
-Other than the validators. I've been using the Inspect view in Google crome using different layout for different devices and a lot with the responsive layout.
+Other than the validators. I've been using the Inspect view in Google Crome using different layout for different devices and a lot with the responsive layout.
 I also tested the webside through my iPhone.
+I've tested the website on a PC using Chrome and Edge web browsers.
 Also my mentor have tested the website.
 
 ### <a id="bugs"></a>Bugs?
