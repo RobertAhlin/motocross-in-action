@@ -125,9 +125,6 @@ I can write a lot about but I think the content is enough for now.
 ## <a id="finalising"></a>Finalising
 
 Finally after some time I started to feel satisfied with a good site:<br>
-<img src="readmefiles/index-view.jpg" alt="Final design of index page" width="33%">
-<img src="readmefiles/image-view.jpg" alt="Final design of image page" width="33%">
-<img src="readmefiles/about-view.jpg" alt="Final design of about page" width="33%">
 
 ![Final design of index page](readmefiles/index-view.jpg)![Final design of image page](readmefiles/image-view.jpg)![Final design of about page](readmefiles/about-view.jpg)<br>
 This is the view from a Samsung Galaxy S8+, but I've been working a lot with different sceeen sizes and in responsive mode to confirm that it will work on
