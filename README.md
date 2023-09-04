@@ -68,7 +68,7 @@ I aimed for a simple website that should contain as little clicks as possible. A
 
 **Website:**
 
-1. **_Home / Indeg page:_** A logo for Robstar Racing and an autostarting video to catch interest for the user.
+1. **_Home / Indeg page:_** A logo for Robstar Racing and a video to catch interest for the user.
 2. **_Images:_** Be able to view images of different events in the sports.
 3. **_About:_** Information page about me and about motocross and enduro. As well as a form to subscribe to a newsletter.
 
